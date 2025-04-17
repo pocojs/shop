@@ -61,7 +61,7 @@ export class OrderService {
 				type: 'redirect',
 				return_url: `${process.env.CLIENT_URL}/thanks`
 			},
-			description: `Оплата заказа в магазине TeaShop. Id платежи: #${order.id}`
+			description: `Оплата заказа в магазине shop. Id платежи: #${order.id}`
 		})
 
 		return payment

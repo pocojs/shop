@@ -29,7 +29,7 @@ export function Auth() {
 			<div className={styles.left}>
 				<Image
 					src='/images/auth.svg'
-					alt='TeaShop auth'
+					alt='auth'
 					width={100}
 					height={100}
 				/>
